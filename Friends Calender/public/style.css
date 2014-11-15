@@ -1,0 +1,130 @@
+body {
+  min-width: 740px;
+  margin: 0; padding: 0;
+  font-family: sans-serif;
+  background: rgba(76,76,76,1);
+  background: -moz-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(0,0,0,1) 58%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(44,44,44,1) 84%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(76,76,76,1)), color-stop(12%, rgba(89,89,89,1)), color-stop(25%, rgba(102,102,102,1)), color-stop(39%, rgba(71,71,71,1)), color-stop(58%, rgba(0,0,0,1)), color-stop(60%, rgba(17,17,17,1)), color-stop(76%, rgba(43,43,43,1)), color-stop(84%, rgba(44,44,44,1)), color-stop(91%, rgba(28,28,28,1)), color-stop(100%, rgba(19,19,19,1)));
+  background: -webkit-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(0,0,0,1) 58%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(44,44,44,1) 84%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+  background: -o-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(0,0,0,1) 58%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(44,44,44,1) 84%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+  background: -ms-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(0,0,0,1) 58%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(44,44,44,1) 84%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+  background: linear-gradient(to right, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(0,0,0,1) 58%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(44,44,44,1) 84%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313', GradientType=1 );
+  
+}
+
+#title{
+	padding-left: 10px;
+	line-height: 200%;
+	font-size: 50px;
+	color: white;
+	text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+}
+
+.topPanel {
+  width: 100%;
+  margin-top: 20px; padding: 5px;
+  border: 1px solid black;
+  border-radius: 3px;
+  box-sizing: border-box;
+  background:white;
+}
+
+.buttonChoices > button{
+  text-shadow: 0 0 10px #fff,
+                   0 0 20px #fff,
+                   0 0 30px #fff,
+                   0 0 40px #ff00de,
+                   0 0 70px #ff00de,
+                   0 0 80px #ff00de,
+                   0 0 100px #ff00de,
+                   0 0 150px #ff00de;
+}
+
+.bottomPanel {
+  width: 500px; height: 400px;
+  margin: 20px 0 20px 0;
+  background: rgba(56,56,56,0.99);
+  background: -moz-linear-gradient(left, rgba(56,56,56,0.99) 0%, rgba(48,48,48,0.99) 4%, rgba(23,23,23,0.99) 12%, rgba(38,38,38,0.99) 17%, rgba(0,0,0,0.99) 39%, rgba(10,10,10,0.99) 51%, rgba(23,23,23,0.99) 60%, rgba(15,15,15,0.99) 76%, rgba(0,0,0,0.99) 91%, rgba(0,0,0,0.99) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(56,56,56,0.99)), color-stop(4%, rgba(48,48,48,0.99)), color-stop(12%, rgba(23,23,23,0.99)), color-stop(17%, rgba(38,38,38,0.99)), color-stop(39%, rgba(0,0,0,0.99)), color-stop(51%, rgba(10,10,10,0.99)), color-stop(60%, rgba(23,23,23,0.99)), color-stop(76%, rgba(15,15,15,0.99)), color-stop(91%, rgba(0,0,0,0.99)), color-stop(100%, rgba(0,0,0,0.99)));
+  background: -webkit-linear-gradient(left, rgba(56,56,56,0.99) 0%, rgba(48,48,48,0.99) 4%, rgba(23,23,23,0.99) 12%, rgba(38,38,38,0.99) 17%, rgba(0,0,0,0.99) 39%, rgba(10,10,10,0.99) 51%, rgba(23,23,23,0.99) 60%, rgba(15,15,15,0.99) 76%, rgba(0,0,0,0.99) 91%, rgba(0,0,0,0.99) 100%);
+  background: -o-linear-gradient(left, rgba(56,56,56,0.99) 0%, rgba(48,48,48,0.99) 4%, rgba(23,23,23,0.99) 12%, rgba(38,38,38,0.99) 17%, rgba(0,0,0,0.99) 39%, rgba(10,10,10,0.99) 51%, rgba(23,23,23,0.99) 60%, rgba(15,15,15,0.99) 76%, rgba(0,0,0,0.99) 91%, rgba(0,0,0,0.99) 100%);
+  background: -ms-linear-gradient(left, rgba(56,56,56,0.99) 0%, rgba(48,48,48,0.99) 4%, rgba(23,23,23,0.99) 12%, rgba(38,38,38,0.99) 17%, rgba(0,0,0,0.99) 39%, rgba(10,10,10,0.99) 51%, rgba(23,23,23,0.99) 60%, rgba(15,15,15,0.99) 76%, rgba(0,0,0,0.99) 91%, rgba(0,0,0,0.99) 100%);
+  background: linear-gradient(to right, rgba(56,56,56,0.99) 0%, rgba(48,48,48,0.99) 4%, rgba(23,23,23,0.99) 12%, rgba(38,38,38,0.99) 17%, rgba(0,0,0,0.99) 39%, rgba(10,10,10,0.99) 51%, rgba(23,23,23,0.99) 60%, rgba(15,15,15,0.99) 76%, rgba(0,0,0,0.99) 91%, rgba(0,0,0,0.99) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#383838', endColorstr='#000000', GradientType=1 );
+}
+.friendsList {
+  width: 320px; height: 100%;
+  float: left;
+  border: 1px solid black;
+  border-radius: 3px 0 0 3px;
+  box-sizing: border-box;
+  background: white;
+  overflow: hidden;
+  
+}
+
+.lists{
+  width: auto; height: 25px;
+  margin-top: 0; margin-bottom: 0;
+  padding: 20px;
+}
+
+.name{
+  width: auto; height: auto;
+  padding: 10px 30px;
+  border: 2px;
+  border-radius: 5px;
+  background: white;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  position: absolute;
+  overflow: hidden;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 3px groove #000000;
+}
+
+.statusList{
+  width: auto; height: auto;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding-bottom: 10px;
+  background: rgba(56,56,56,0.99);
+  background: -moz-linear-gradient(left, rgba(56,56,56,0.99) 0%, rgba(48,48,48,0.99) 4%, rgba(23,23,23,0.99) 12%, rgba(38,38,38,0.99) 17%, rgba(0,0,0,0.99) 39%, rgba(10,10,10,0.99) 51%, rgba(23,23,23,0.99) 60%, rgba(15,15,15,0.99) 76%, rgba(0,0,0,0.99) 91%, rgba(0,0,0,0.99) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(56,56,56,0.99)), color-stop(4%, rgba(48,48,48,0.99)), color-stop(12%, rgba(23,23,23,0.99)), color-stop(17%, rgba(38,38,38,0.99)), color-stop(39%, rgba(0,0,0,0.99)), color-stop(51%, rgba(10,10,10,0.99)), color-stop(60%, rgba(23,23,23,0.99)), color-stop(76%, rgba(15,15,15,0.99)), color-stop(91%, rgba(0,0,0,0.99)), color-stop(100%, rgba(0,0,0,0.99)));
+  background: -webkit-linear-gradient(left, rgba(56,56,56,0.99) 0%, rgba(48,48,48,0.99) 4%, rgba(23,23,23,0.99) 12%, rgba(38,38,38,0.99) 17%, rgba(0,0,0,0.99) 39%, rgba(10,10,10,0.99) 51%, rgba(23,23,23,0.99) 60%, rgba(15,15,15,0.99) 76%, rgba(0,0,0,0.99) 91%, rgba(0,0,0,0.99) 100%);
+  background: -o-linear-gradient(left, rgba(56,56,56,0.99) 0%, rgba(48,48,48,0.99) 4%, rgba(23,23,23,0.99) 12%, rgba(38,38,38,0.99) 17%, rgba(0,0,0,0.99) 39%, rgba(10,10,10,0.99) 51%, rgba(23,23,23,0.99) 60%, rgba(15,15,15,0.99) 76%, rgba(0,0,0,0.99) 91%, rgba(0,0,0,0.99) 100%);
+  background: -ms-linear-gradient(left, rgba(56,56,56,0.99) 0%, rgba(48,48,48,0.99) 4%, rgba(23,23,23,0.99) 12%, rgba(38,38,38,0.99) 17%, rgba(0,0,0,0.99) 39%, rgba(10,10,10,0.99) 51%, rgba(23,23,23,0.99) 60%, rgba(15,15,15,0.99) 76%, rgba(0,0,0,0.99) 91%, rgba(0,0,0,0.99) 100%);
+  background: linear-gradient(to right, rgba(56,56,56,0.99) 0%, rgba(48,48,48,0.99) 4%, rgba(23,23,23,0.99) 12%, rgba(38,38,38,0.99) 17%, rgba(0,0,0,0.99) 39%, rgba(10,10,10,0.99) 51%, rgba(23,23,23,0.99) 60%, rgba(15,15,15,0.99) 76%, rgba(0,0,0,0.99) 91%, rgba(0,0,0,0.99) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#383838', endColorstr='#000000', GradientType=1 );
+}
+.logo{
+  padding-left: 65px;
+  padding-top: 10px;
+}
+
+.buttonChoices {
+  padding-left: 110px;
+  margin: 0 auto;
+}

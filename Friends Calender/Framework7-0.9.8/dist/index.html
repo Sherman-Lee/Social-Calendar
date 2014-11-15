@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>Social Calendar</title>
+    <!-- Path to Framework7 Library CSS-->
+    <link rel="stylesheet" href="css/framework7.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/my-app.css">
+  </head>
+
+  <body>
+    <!-- Status bar overlay for fullscreen mode-->
+    <div class="statusbar-overlay"></div>
+    <!-- Panels overlay-->
+    <div class="panel-overlay"></div>
+
+    <!-- Left panel with reveal effect-->
+    <div class="panel panel-left panel-reveal">
+      <div class="content-block">
+        <section class="topPanel">
+          <div class="buttonChoices">
+            <button id = "statusButton">Change Your Status</button>
+            <button>Add Your Events</button>
+            <button id = "exitButton">Exit</button>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- Right panel with cover effect-->
+    <div class="panel panel-right panel-cover">
+      <div class="content-block">
+        <p>Welcome to Social Calendar!</p>
+      </div>
+    </div>
+
+    <!-- Views-->
+    <div class="views">
+      <!-- Your main view, should have "view-main" class-->
+      <div class="view view-main">
+        <!-- Top Navbar-->
+        <div class="navbar">
+          <div class="navbar-inner">
+            <!-- We have home navbar without left link-->
+            <div class="center sliding" id = "title">Social Calendar</div>
+            <div class="right">
+              <!-- Right link contains only icon - additional "icon-only" class--><a href="#" class="link icon-only open-panel"> <i class="icon icon-bars"></i></a>
+            </div>
+          </div>
+        </div>
+
+      <div class="content-block-title"></div
+
+        >
+
+      <div class="content-block">
+        <div class="row">
+          <div class="col-50"><a href="#" data-panel="left" class="button open-panel">Menu</a></div>
+          <div class="col-50"><a href="#" data-panel="right" class="button open-panel">Notifications</a></div>
+        </div>
+      </div>
+
+        <!-- Pages, because we need fixed-through navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages navbar-through toolbar-through">
+          <!-- Page, data-page contains page name-->
+          <div data-page="index" class="page">
+            <!-- Scrollable page content-->
+            <div class="page-content">
+
+              <div class="content-block-title">Calendar View</div>
+
+              <div class="content-block">
+                <div class="content-block-inner">
+                  <iframe src="https://www.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=llol5394%40gmail.com&amp;color=%2329527A&amp;src=%23contacts%40group.v.calendar.google.com&amp;color=%232F6309&amp;src=en.usa%23holiday%40group.v.calendar.google.com&amp;color=%232952A3&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                </div>
+                <div class="content-block-friends">
+                <div class="statusList">
+                  <ol class = 'lists'>
+                    <class = 'yourIcon' id = "yourStatus">
+                    <img src="img/green_circle.png" class = "logo" id = "You">
+                  </ol>
+                    <ol class = 'lists'>
+                    <img src="img/green_circle.png" class = "logo">
+                  </ol>
+                  <ol class = 'lists'>
+                    <img src = "img/green_circle.png" class = "logo">
+                  </ol>
+                  <ol class = 'lists'>
+                    <img src = "img/red_circle.png" class = "logo">
+                  </ol>
+                  <ol class = 'lists'>
+                    <img src = "img/green_circle.png" class = "logo">
+                  </ol>
+                  <ol class = 'lists'>
+                    <img src = "img/red_circle.png" class = "logo">
+                  </ol>
+                </div>
+
+                <div class="friendsList">
+                  <ol class="lists">
+                      <div class="name"><b><u>You</u></b></div>
+                  </ol>
+                  <ol class="lists">
+                    <div class="name">Sherman Lee</div>
+                  </ol>
+                  <ol class = "lists">
+                    <div class = "name">Karan Lala</div>
+                  </ol>
+                  <ol class = "lists">
+                    <div class = "name">Luis Llobera</div>
+                  </ol>
+                  <ol class = "lists">
+                    <div class = "name">Tyler Ly</div>
+                  </ol>
+                  <ol class = "lists">
+                    <div class = "name">Mohan Paturi</div>
+                  </ol>
+                </div>
+              </div>
+
+              </div>
+
+              <div class="content-block-title">More about us?</div>
+
+              <div class="list-block">
+                <p>Talk to us at table 70!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="js/framework7.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/my-app.js"></script>
+    <script type="text/javascript" src="js/my-app2.js"></script>
+  </body>
+</html>
